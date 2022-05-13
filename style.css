@@ -88,7 +88,7 @@ main {
 .avatar {
   width: 2.154rem;
   border-radius: 50%;
-  outline: solid 0.154rem var(--clr-White-50) ;
+  outline: solid 0.154rem var(--clr-White-50);
 }
 
 .mainquote {
@@ -116,7 +116,7 @@ main {
   color: var(--clr-Very-dark-grayish-blue-70);
 }
 
-.testimonial:nth-child(3) .user-role, .testimonial:nth-child(3) .user-role {
+.testimonial:nth-child(3) .user-role, .testimonial:nth-child(5) .user-role {
   color: var(--clr-Very-dark-grayish-blue-70);
 }
 
@@ -174,6 +174,7 @@ main {
 
   .testimonial:first-of-type {
     grid-column: 1/3;
+    background-position: top right 6.154rem;
   }
 
   .testimonial:nth-child(3) .quote {
@@ -190,5 +191,9 @@ main {
 
   .testimonial:first-of-type .quote {
     margin-top: 1.231rem;
+  }
+
+  .testimonial:nth-child(4) .avatar {
+    outline: solid 0.154rem var(--clr-Moderate-violet);
   }
 }
