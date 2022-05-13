@@ -154,6 +154,7 @@ main {
   main {
     max-width: 85.384em;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2.307rem;
   }
 
   .testimonial:nth-child(3) {
